@@ -1,13 +1,17 @@
 nav {
     /* 레이아웃에 대한 스타일 (5-10 lines) */
     display: flex; /* 가로 정렬 */
+    position: sticky;
     align-items: center;
 
     padding-left: 120px;
     padding-right: 120px;
+    
+    background-color: white;
 
     gap: 40px;
-    height: 100px;
+    height: 70px;
+    top: 0px;
 }
 
 .navItem {

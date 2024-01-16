@@ -25,6 +25,11 @@
     line-height: 130%;
 }
 
+.about img {
+    width: 100%;
+    flex-direction: row;
+}
+
 .about p {
     margin-top: 0%;
     width: 100%;
