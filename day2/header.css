@@ -120,3 +120,16 @@ header h1 em {
     
     width: 350px; /* 음 .. */
 }
+
+/* -- 애니메이션 -- */
+.typing {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }to {
+        opacity: 0;
+    }
+}
