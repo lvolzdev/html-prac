@@ -91,6 +91,10 @@ header h1 em {
 
     /* text */
     color: #E6EEFF;
+
+    /* animate */
+    animation: fadein 3s;
+    -webkit-animation: fadein 3s;
 }
 
 .headerLink2 {
@@ -112,6 +116,10 @@ header h1 em {
 
     /* text */
     color: #403930;
+
+    /* animate */
+    animation: fadein 3s;
+    -webkit-animation: fadein 3s;
 }
 
 .profileImg {
@@ -119,17 +127,25 @@ header h1 em {
     padding-left: 60px;
     
     width: 350px; /* 음 .. */
+
+    /* animate */
+    animation: fadein 3s;
+    -webkit-animation: fadein 3s;
 }
 
 /* -- 애니메이션 -- */
-.typing {
-    animation: blink 1s infinite;
+@keyframes fadein {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
 }
 
-@keyframes blink {
+@-webkit-keyframes fadein { /* Safari and Chrome */
     from {
-        opacity: 1;
-    }to {
         opacity: 0;
+    } to {
+        opacity: 1;
     }
 }
