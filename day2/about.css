@@ -1,0 +1,32 @@
+.about {
+    background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+
+    /* layout */
+    display: flex;
+    padding: 100px 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    /* text */
+    color: #000;
+    font-family: "Pretendard";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 50px */
+    letter-spacing: -0.8px;
+}
+
+.about h2 {
+    width: 100%;
+    margin-bottom: 2%;
+    line-height: 130%;
+}
+
+.about p {
+    margin-top: 0%;
+    width: 100%;
+    font-weight: 400;
+}
