@@ -1,40 +1,47 @@
-.about {
-    background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(95, 229, 218, 0.58) 158.93%);
+.aboutContainer {
+    background: linear-gradient(
+      96deg,
+      rgba(189, 210, 255, 0.4) 1.72%,
+      rgba(105, 222, 212, 0.605) 158.93%
+    );
+  }
+  
+  .about {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 80px 40px;
+  }
 
-    /* layout */
-    display: flex;
-    padding: 100px 120px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-
-    /* text */
+  .about h2 {
     color: #000;
-    font-family: "Pretendard";
-    flex-direction: column;
-    font-size: 20px;
+    font-size: 30px;
+    /* white-space: pre-line; */
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 125%; /* 50px */
     letter-spacing: -0.8px;
-}
+  }
+  
+  .about p {
+    color: #333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+    white-space: pre-line;
+  }
 
-.about h2 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-bottom: 2%;
-    line-height: 130%;
-}
+.flyingPerson {
+    width: 90px;
+    height: 90px;
+    position: absolute;
 
-.about h2 img {
-    width: 50px;
-}
-
-.about p {
-    display: flex;
-    align-items: center;
-    margin-top: 0%;
-    width: 100%;
-    font-weight: 400;
-}
+    top: -100px;
+    bottom: 48px;
+    /* right: 0px; */
+    left: 165px;
+  }
+  
+  .posRelative {
+    position: relative;
+  }
