@@ -33,11 +33,21 @@ nav {
 
 header {
     display: flex;
-    padding: 100px 120px;
+    padding: 30px 120px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.headerContainer1 {
+    padding: 10px;
+    display: block;
+}
+
+.headerContaiiner2 {
+    padding: 10px;
+    display: block;
 }
 
 .badge {
@@ -134,4 +144,11 @@ header h1 em {
 
     /* text */
     color: #403930;
+}
+
+.profileImg {
+    display: block;
+    padding-left: 30px;
+    
+    width: 350px; /* 음 .. */
 }
