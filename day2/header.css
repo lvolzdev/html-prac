@@ -44,6 +44,10 @@ header h1 {
     font-weight: 600;
     line-height: 125%; /* 80px */
     letter-spacing: -1.28px;
+
+    /* animate */
+    animation: fadein-h1 3s;
+    -webkit-animation: fadein 3s;
 }
 
 header h1 em {
@@ -93,8 +97,8 @@ header h1 em {
     color: #E6EEFF;
 
     /* animate */
-    animation: fadein 3s;
-    -webkit-animation: fadein 3s;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
 }
 
 .headerLink2 {
@@ -118,8 +122,8 @@ header h1 em {
     color: #403930;
 
     /* animate */
-    animation: fadein 3s;
-    -webkit-animation: fadein 3s;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
 }
 
 .profileImg {
@@ -133,12 +137,13 @@ header h1 em {
     -webkit-animation: fadein 3s;
 }
 
-/* -- 애니메이션 -- */
 
+/* -- 애니메이션 -- */
 @keyframes fadein {
     from {
         opacity: 0;
-    } to {
+    }
+    to {
         opacity: 1;
     }
 }
@@ -146,7 +151,8 @@ header h1 em {
 @-webkit-keyframes fadein { /* Safari and Chrome */
     from {
         opacity: 0;
-    } to {
+    }
+    to {
         opacity: 1;
     }
 }
