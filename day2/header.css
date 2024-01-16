@@ -134,6 +134,7 @@ header h1 em {
 }
 
 /* -- 애니메이션 -- */
+
 @keyframes fadein {
     from {
         opacity: 0;
