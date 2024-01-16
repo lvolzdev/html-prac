@@ -1,0 +1,67 @@
+/* navbar */
+nav {
+    /* 레이아웃에 대한 스타일 (5-10 lines) */
+    display: flex; /* 가로 정렬 */
+    position: sticky;
+    align-items: center;
+
+    padding-left: 120px;
+    padding-right: 120px;
+    
+    background-color: white;
+
+    gap: 40px;
+    height: 70px;
+    top: 0px;
+}
+
+.navItem {
+    /* border: solid; */
+    padding: 10px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin: 10px;
+
+    /* 텍스트 스타일 (3-8 lines) */
+    color:black;
+    font-size: 16px;
+    font-weight: 700; /* 500: medium, 700: bold */
+    font-family: "Pretendard";
+
+    line-height: 1.5; /* 150% */
+    letter-spacing: -0.1px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.contactBtn {
+    padding: 10px;
+    bottom: 20px;
+    right: 20px; /* 오른쪽에서 10px 떨어진 위치로 설정 */
+    padding: 10px;
+
+    flex-shrink: 0;
+    text-align: center;
+    position: fixed;
+
+    border-radius: 50px;
+    border: 10px solid #BBD5F7;
+    background: linear-gradient(98deg, #BED3FF -10.83%, #D2F3E5 51.79%, #FFEBD9 110.76%);
+
+    /* text */
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Pretendard";
+}
