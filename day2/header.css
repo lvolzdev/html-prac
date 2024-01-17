@@ -50,11 +50,13 @@ header {
 .headerContainer1 {
     padding: 10px;
     display: block;
+    box-sizing: border-box;
 }
 
 .headerContaiiner2 {
     padding: 10px;
     display: block;
+    box-sizing: border-box;
 }
 
 .badge {
