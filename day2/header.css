@@ -1,4 +1,4 @@
-/* navbar */
+/* -----navbar----- */
 nav {
     /* 레이아웃에 대한 스타일 (5-10 lines) */
     display: flex; /* 가로 정렬 */
@@ -36,7 +36,7 @@ nav {
     letter-spacing: -0.1px;
 }
 
-/* header */
+/* -----header----- */
 header {
     display: flex;
     padding: 30px 120px;
@@ -179,7 +179,7 @@ header h1 em {
 }
 
 
-/* -- 애니메이션 -- */
+/* -----애니메이션----- */
 @keyframes fadein {
     from {
         opacity: 0;
@@ -198,7 +198,7 @@ header h1 em {
     }
 }
 
-/* footer */
+/* -----footer----- */
 footer {
     display: flex;
     justify-content: flex-end;

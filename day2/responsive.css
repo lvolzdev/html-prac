@@ -2,7 +2,7 @@
     display: none;
 }
 
-/* nav */
+/* -----nav----- */
 nav {
     display: flex;
     height: 60px;
@@ -22,7 +22,7 @@ nav {
 } 
 
 
-/* header */
+/* -----header----- */
 header {
     box-sizing: border-box; /* 이거 추가해주니 화면 가로 안 벗어난다! */
     display: flex;
@@ -88,7 +88,7 @@ header h1 em {
 }
 
 
-/* about */
+/* -----about----- */
 .aboutContainer {
     display: flex;
     padding: 20px 8px;
@@ -123,7 +123,7 @@ header h1 em {
     left: 130px;
 }
 
-/* skills */
+/* -----skills----- */
 .skillsContainer {
     gap: 32px;
     align-self: stretch;

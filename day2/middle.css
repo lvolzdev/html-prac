@@ -1,4 +1,4 @@
-/* about */
+/* -----about----- */
 .aboutContainer {
     background: linear-gradient(
       96deg,
@@ -48,7 +48,7 @@
   }
 
   
-  /* skills */
+  /* -----skills----- */
   .skillsContainer {
     display: flex;
     flex-direction: column;
