@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./bar.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-13F2B4FYFT"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-13F2B4FYFT');
+    </script>
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="./about.css">
-    <link rel="stylesheet" href="./skills.css">
-    <link rel="stylesheet" href="./experience.css">
+    <link rel="stylesheet" href="./middle.css">
+    <link rel="stylesheet" href="./responsive.css" media="(max-width: 390px)">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -85,5 +93,24 @@
     </footer>
 
     <!-- <script src="script.js"></script> -->
+    <script>
+        function onClickButton(type) {
+            if (type == 'github') {
+                // gtag("이벤트명", "액션명", {액션에 대한 상세 내용})
+                gtag("event", "깃허브_버튼_클릭", {
+                    'event_category': '깃허브_버튼_클릭',
+                    'evne_label': '깃허브_버튼_클릭'
+                })
+                alert('깃허브로 이동 중')
+            }
+            else if (type == 'resume') {
+                gtag("event", "깃허브_버튼_클릭", {
+                    'event_category': '이력서_버튼_클릭',
+                    'evne_label': '이력서_버튼_클릭'
+                })
+                alert('리쥬메로 이동 중')
+            }
+        }
+    </script>
 </body>
 </html>

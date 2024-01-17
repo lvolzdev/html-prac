@@ -1,0 +1,21 @@
+.fixedContactButton {
+    display: none;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    padding: 0px 24px;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.navItem {
+    color: #403930;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 18px */
+} 
