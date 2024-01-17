@@ -136,8 +136,8 @@ header h1 em {
     color: #E6EEFF;
 
     /* animate */
-    animation: fadein 1s 3s;
-    -webkit-animation: fadein 1s 3s;
+    animation: fadein 3s;
+    -webkit-animation: fadein 3s;
 }
 
 .headerLink2 {
@@ -161,8 +161,8 @@ header h1 em {
     color: #403930;
 
     /* animate */
-    animation: fadein 5s;
-    -webkit-animation: fadein 5s;
+    animation: fadein 3s;
+    -webkit-animation: fadein 3s;
 }
 
 .profileImg {
