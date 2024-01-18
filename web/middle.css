@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'TAEBAEKmilkyway';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* -----about----- */
 .aboutContainer {
     background: linear-gradient(
@@ -294,4 +301,24 @@
 
 .experienceLink1 {
   padding-right: 10px;
+}
+
+
+.GoalsContainer {
+  display: flex;
+  padding: 80px 100px 100px 100px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(231, 226, 226, 0.5);
+  flex-direction: column;
+}
+
+.GoalsContainer h5 {
+  font-family: 'TAEBAEKmilkyway';
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: -0.8px;
+  font-weight: 300;
 }
