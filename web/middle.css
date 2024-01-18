@@ -132,7 +132,7 @@
   display: flex;
   padding: 20px 0px 20px 40px;
   align-items: center;
-  gap: 40px;
+  gap: 100px;
   align-self: stretch;
   
   background: linear-gradient(
@@ -175,4 +175,26 @@
   max-width: 100%;
   height: auto;
   margin-bottom: 10px; /* 이미지 사이에 간격을 조절 */
+}
+
+.project-item-left-link {
+  padding-top: 20px;
+  flex-direction: row;
+  box-sizing: border-box;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  text-decoration-line: underline;
+
+  gap: 10px;
+}
+
+.project-item-left-link a {
+  color: #333;
+}
+
+.projectLink1 {
+  padding-right: 10px;
 }
