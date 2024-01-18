@@ -114,7 +114,7 @@
   padding: 80px 100px 100px 100px;
   justify-content: center;
   align-items: center;
-  background: rgba(244, 244, 244, 0.50);
+  background: white;
   flex-direction: column;
   gap: 30px;
 }
@@ -130,9 +130,8 @@
 
 .project-item {
   display: flex;
-  padding: 20px 0px 20px 40px;
+  padding: 8% 8% 8% 8%;
   align-items: center;
-  gap: 100px;
   align-self: stretch;
   
   background: linear-gradient(
@@ -145,6 +144,7 @@
 
 .project-item-left {
   flex-direction: column;
+  padding-left: 10%;
 }
 
 .project-item h5 {
@@ -161,6 +161,10 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 150%; /* 24px */
+}
+
+.project-item-right {
+  margin-left: 20%;
 }
 
 .project-item-right img {
@@ -196,5 +200,98 @@
 }
 
 .projectLink1 {
+  padding-right: 10px;
+}
+
+
+/* --Experience-- */
+.ExperienceContainer {
+  display: flex;
+  padding: 80px 100px 100px 100px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(244, 244, 244, 0.50);
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ExperienceContainer h2 {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.8px;
+}
+
+.experience-item {
+  display: flex;
+  padding: 8% 8% 8% 8%;
+  align-items: center;
+  align-self: stretch;
+  
+  background: linear-gradient(
+      96deg,
+      rgba(227, 232, 155, 0.4) 1.72%,
+      rgba(243, 121, 229, 0.605) 158.93%
+    );
+  border-radius: 20px;
+}
+
+.experience-item-left {
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.experience-item h5 {
+  color: #403930;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+.experience-item p {
+  align-self: stretch;
+  color: #403930;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+
+.experience-item-right {
+  margin-left: 20%;
+}
+
+.experience-item-right img {
+  flex-shrink: 0;
+  align-items: center;
+  background: url(<path-to-image>), white 50% / cover no-repeat;
+
+  border-radius: 16.08px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+  height: auto;
+}
+
+.experience-item-left-link {
+  padding-top: 20px;
+  flex-direction: row;
+  box-sizing: border-box;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  text-decoration-line: underline;
+
+  gap: 10px;
+}
+
+.experience-item-left-link a {
+  color: #333;
+}
+
+.experienceLink1 {
   padding-right: 10px;
 }
